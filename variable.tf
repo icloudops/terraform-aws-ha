@@ -15,3 +15,11 @@ variable "private_cidr" {
   type = list
   default = ["10.0.2.0/24","10.0.3.0/24"]
 }
+
+####EC2 Variable
+variable "ebs_size" {
+    default = "20"
+}
+variable "instance_type" {
+  default = "t3.medium"
+}

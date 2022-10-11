@@ -21,11 +21,12 @@ resource "aws_security_group" "default_sg" {
   vpc_id      = var.vpc_id
 
   ingress {
-    description      = "Http from VPC"
+    description      = "Allow_HTTP_From_All"
     from_port        = 80
     to_port          = 80
     protocol         = "tcp"
-    cidr_blocks      = [var.vpc_cidr]
+    # cidr_blocks      = [var.vpc_cidr]
+    cidr_blocks      = ["0.0.0.0/0"]
   }
 
   egress {

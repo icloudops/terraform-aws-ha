@@ -1,0 +1,9 @@
+variable "project_name" {}
+variable "vpc_id" {}
+variable "security_groups" {}
+variable "public_subnets" {}
+variable "private_subnets" {}
+variable "ec2_template" {}
+variable "max_size" {}
+variable "min_size" {}
+variable "desired_capacity" {}

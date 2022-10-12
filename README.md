@@ -1,6 +1,7 @@
 # terraform-aws-ha
 Implement AWS HighAvailabe architecture using terraform.
-![alt text](https://github.com/belalhassan91/terraform-aws-ha/blob/master/Architecture.png "Architecture")
+![Alt text](/Architecture.png?raw=true "Architecture")
+
 # Example Usage
 ```hcl
 module "ha" {

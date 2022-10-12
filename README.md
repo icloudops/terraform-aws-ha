@@ -1,6 +1,6 @@
 # terraform-aws-ha
 A Terraform Module for how to run High Avalability Architecture on AWS using Terraform
-
+![alt text](https://github.com/belalhassan/raw/master/src/common/Architecture.png "Architecture")
 # Example Usage
 ```hcl
 module "ha" {

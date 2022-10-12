@@ -1,5 +1,5 @@
 # terraform-aws-ha
-A Terraform Module for how to run High Avalability Architecture on AWS using Terraform
+Implement AWS HighAvailabe architecture using terraform.
 ![alt text](https://github.com/belalhassan91/terraform-aws-ha/blob/master/Architecture.png "Architecture")
 # Example Usage
 ```hcl

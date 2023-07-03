@@ -5,10 +5,9 @@ Implement AWS HighAvailabe architecture using terraform.
 # Example Usage
 ```hcl
 module "ha" {
-  source  = git@github.com:icloudops/terraform-aws-ha.git
-  version = "1.0.4"
+  source  = "github.com/icloudops/terraform-aws-ha?ref=v1.0.0"
   project_name = "ProjectA"
-  vpc_cidr = var.vpc_cidr
+  vpc_cidr = "10.0.0.0"
   region = "eu-west-1"
 }
 ```
